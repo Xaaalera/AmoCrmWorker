@@ -1,0 +1,47 @@
+.container-body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    flex-flow: column nowrap;
+}
+
+.form-once{
+    width: 70%;
+    background-color: #D4D4D4;
+    padding: 20px 20px 20px 20px;
+
+
+}
+.page-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #B5B5B4;
+    font-size: 1.5rem;
+}
+.send-button-container {
+   text-align: center;
+}
+.button.is-large {
+    font-size: 1.2rem;
+}
+.send-button {
+    width:30%;
+    min-width: 160px;
+}
+h1{
+    text-align: center;
+}
+@media (max-width: 800px) {
+    .form-once{
+        width: 100%;
+    }
+}
+
+

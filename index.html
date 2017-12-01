@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Work</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container-body">
+    <div class="form-once page-title"><h1>Please input your values</h1></div>
+    <form class="form-once" onsubmit="sends();  return false;">
+
+        <div class="field">
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-large" type="text" placeholder="Name" name="name" required="required">
+                <span class="icon is-small is-left">
+      <i class="fa fa-user" aria-hidden="true"></i>
+    </span>
+
+            </div>
+        </div>
+
+
+
+        <div class="field">
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-large" type="email" placeholder="Email" name="email" required="required">
+                <span class="icon is-small is-left">
+      <i class="fa fa-envelope"></i>
+    </span>
+
+            </div>
+        </div>
+
+
+
+        <div class="field">
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-large" type="tel" placeholder="Phone Number" name="phone" required="required">
+                <span class="icon is-small is-left">
+      <i class="fa fa-phone" aria-hidden="true"></i>
+    </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-large" type="tel" placeholder="Price" name="price" required="required">
+                <span class="icon is-small is-left">
+      <i class="fa fa-usd" aria-hidden="true"></i>
+    </span>
+            </div>
+        </div>
+        <div class="send-button-container">
+            <button class="send-button button is-large right"  id='submitter' type="submit" >Submitt Value</button>
+        </div>
+    </form>
+</div>
+<script src="/js/logick.js"></script>
+</body>
+</html>
+
+
